@@ -1,0 +1,30 @@
+{
+  "name": "passport-kerberos-negotiate",
+  "version": "0.0.1",
+  "description": "Kerberos 5 authentication via SPNEGO - strategy for Passport.",
+  "keywords": [
+    "passport",
+    "kerberos",
+    "krb5",
+    "spnego",
+    "auth",
+    "authentication"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nambar/passport-kerberos-negotiate.git"
+  },
+  "author": {
+    "name": "Noam Ambar",
+    "email": "nambar@gmail.com"
+  },
+  "main": "./lib",
+  "dependencies": {
+    "express-session": "^1.11.3",
+    "passport": ">= 0.2.0",
+    "pkginfo": "0.2.x"
+  },
+  "engines": {
+    "node": ">= 0.12.0"
+  }
+}
